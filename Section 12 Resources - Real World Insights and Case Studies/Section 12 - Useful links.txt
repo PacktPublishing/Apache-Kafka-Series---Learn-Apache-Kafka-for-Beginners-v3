@@ -1,0 +1,4 @@
+Section 12 - Useful links
+
+Topic Naming Convention
+https://cnr.sh/essays/how-paint-bike-shed-kafka-topic-naming-conventions

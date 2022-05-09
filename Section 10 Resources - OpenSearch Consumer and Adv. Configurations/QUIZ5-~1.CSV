@@ -1,0 +1,7 @@
+Question,Question Type (multiple-choice or multi-select),Answer Option 1,Answer Option 2,Answer Option 3,Correct Responses,Explanation
+"by default, offsets are committed automatically",multiple-choice,yes,no,,1,
+"if we do asynchronous operations in our consumer, it is preferable",multiple-choice,to leave auto offset commit on,to commit offsets manually,,2,
+"if we commit offsets before processing the data, we are in the scenario",multiple-choice,at least once,at most once,,2,
+if we don't want to have duplicates in our target database,multiple-choice,we need to make our consumer consistent,we need to make our consumer idempotent,,2,
+what's a generic unique id that I can use for messages I receive from a consumer?,multiple-choice,topic+timestamp,topic+partition+timestamp,topic+partition+offset,3,
+"if I want to replay data for a consumer, I should",multiple-choice,use a new group.id,reset the offsets of the currently used consumer groups,,2,

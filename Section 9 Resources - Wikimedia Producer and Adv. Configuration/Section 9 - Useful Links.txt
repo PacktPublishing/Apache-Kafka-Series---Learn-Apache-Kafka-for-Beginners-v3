@@ -1,0 +1,7 @@
+Section 9 - Useful Links
+
+Producer Compression Benchmarks
+https://blog.cloudflare.com/squeezing-the-firehose/
+
+Producer Sticky Partitioner
+https://cwiki.apache.org/confluence/display/KAFKA/KIP-480%3A+Sticky+Partitioner

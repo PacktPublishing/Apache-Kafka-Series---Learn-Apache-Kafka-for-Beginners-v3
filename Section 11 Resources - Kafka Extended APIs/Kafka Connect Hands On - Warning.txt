@@ -1,0 +1,10 @@
+Kafka Connect Hands-On: Warning
+
+
+The next lecture is really advanced and I go quite fast.
+
+If you cannot reproduce what I do, do not worry, this lecture is optional and not necessary to complete to finish the course. Kafka Connect takes about 3 hours to learn properly, and this one lecture is meant as an introduction to show you the power of it.
+
+
+
+Happy learning!

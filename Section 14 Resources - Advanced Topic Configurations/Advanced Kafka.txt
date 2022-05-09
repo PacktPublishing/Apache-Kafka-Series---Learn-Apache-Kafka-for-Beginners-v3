@@ -1,0 +1,6 @@
+Advanced Kafka
+Welcome to the Advanced Kafka learning block
+
+In this section, we will do a deep dive on Kafka internals and understand some topic configurations
+
+This section is definitely a bit more advanced than the others but will teach you some interesting advanced features of Kafka

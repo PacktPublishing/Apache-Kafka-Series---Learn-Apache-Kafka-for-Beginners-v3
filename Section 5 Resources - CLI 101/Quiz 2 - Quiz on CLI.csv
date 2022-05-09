@@ -1,0 +1,8 @@
+Question,Question Type (multiple-choice or multi-select),Answer Option 1,Answer Option 2,Answer Option 3,Correct Responses,Explanation
+The kafka-topics CLI needs to connect to...,multiple-choice,Zookeeper,Kafka,,2,
+The kafka-console-producer CLI needs to connect to ,multiple-choice,Kafka,Zookeeper,,1,--broker-list (Kafka) is the right option
+"If I produce to a topic that does not exist, by default",multiple-choice,I will see an ERROR and my producer will not work,I will see a WARNING and Kafka will auto create the topic,,2,by default Kafka automatically creates topics
+"When a topic is auto-created, how many partitions and replication factor does it have by default?",multiple-choice,partitions: 3replication factor: 1,partitions: 1replication factor: 1,partitions: 3replication factor: 3,2,"by default it's 1 & 1, but these can be controlled by the settings num.partitions and default.replication.factor"
+kafka-console-consumer,multiple-choice,does not use a group id,always uses the same group id,uses a random group id,3,try running kafka-consumer-groups --list to see!
+I should override the group.id for kafka-console-consumer using,multiple-choice,--group mygroup,--property group.id=mygroup,,1,
+I perform operations on the consumer offsets using,multiple-choice,kafka-console-consumer,kafka-consumer-groups,,2,

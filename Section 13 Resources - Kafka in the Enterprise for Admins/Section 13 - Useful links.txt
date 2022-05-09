@@ -1,0 +1,34 @@
+Section 13 - Useful links
+
+Kafka Monitoring and Operations
+https://kafka.apache.org/documentation/#monitoring
+
+Confluent Documentation
+https://docs.confluent.io/platform/current/kafka/monitoring.html
+
+DataDog Blog Kafka Monitoring
+https://www.datadoghq.com/blog/monitoring-kafka-performance-metrics/
+
+MirrorMaker Performance Tuning
+https://engineering.salesforce.com/mirrormaker-performance-tuning-63afaed12c21
+
+Confluent Replicator
+https://docs.confluent.io/platform/current/multi-dc-deployments/replicator/replicator-tuning.html#improving-network-utilization-of-a-connect-task
+
+Kafka Mirror Maker Best Practices
+https://community.cloudera.com/t5/Community-Articles/Kafka-Mirror-Maker-Best-Practices/ta-p/249269
+
+Netflix Talk on Kafka Replication
+https://www.confluent.io/kafka-summit-sf17/multitenant-multicluster-and-hieracrchical-kafka-messaging-service/
+
+Uber uReplicator
+https://eng.uber.com/ureplicator-apache-kafka-replicator/
+
+Blog on Multi DC Pros and Cons
+https://www.altoros.com/blog/multi-cluster-deployment-options-for-apache-kafka-pros-and-cons/
+
+Open Source Kafka Connect Replicator
+https://github.com/Comcast/MirrorTool-for-Kafka-Connect
+
+MirrorMaker 2 
+https://cwiki.apache.org/confluence/display/KAFKA/KIP-382%3A+MirrorMaker+2.0

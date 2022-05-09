@@ -1,0 +1,19 @@
+Section 3 - Useful links
+
+Starting Kafka | Conduktor Kafkademy
+https://www.conduktor.io/kafka/starting-kafka
+
+Conduktor Download
+https://www.conduktor.io/download
+
+Kafka Download page
+https://kafka.apache.org/downloads
+
+Install Kafka on Mac | Conduktor Kafkademy
+https://www.conduktor.io/kafka/how-to-install-apache-kafka-on-mac
+
+Kafka Brew Conduktor Kafkademy
+https://www.conduktor.io/kafka/how-to-install-apache-kafka-on-mac-with-homebrew
+
+Install Kafka on Windows WSL2 | Conduktor Kafkademy
+https://www.conduktor.io/kafka/how-to-install-apache-kafka-on-windows

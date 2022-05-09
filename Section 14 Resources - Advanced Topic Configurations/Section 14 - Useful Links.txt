@@ -1,0 +1,7 @@
+Section 14 - Useful Links
+
+Topic Configurations (Scroll Down)
+https://kafka.apache.org/documentation/#configuration
+
+Log Compaction | Conduktor Kafkademy
+https://www.conduktor.io/kafka/kafka-topic-configuration-log-compaction

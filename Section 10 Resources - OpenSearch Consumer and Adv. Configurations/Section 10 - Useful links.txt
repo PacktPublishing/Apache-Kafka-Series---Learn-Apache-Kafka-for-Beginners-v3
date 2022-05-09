@@ -1,0 +1,4 @@
+Section 10 - Useful links
+
+OpenSearch Quick Start
+https://opensearch.org/docs/latest/#docker-quickstart

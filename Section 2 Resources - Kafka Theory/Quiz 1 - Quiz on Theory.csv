@@ -1,0 +1,14 @@
+Question,Question Type (multiple-choice or multi-select),Answer Option 1,Answer Option 2,Answer Option 3,Answer Option 4,Correct Responses,Explanation
+Kafka topics...,multiple-choice,always have 1 partition,can have as many partitions as desired,,,2,
+Offsets are only relevant at the level of ,multiple-choice,the topic ,the topic-partition,,,2,
+"Once sent to a topic, a message can be modified",multiple-choice,true,false,,,2,data is immutable and can't be modified !
+Brokers are identified by,multiple-choice,A name (string),An ID (number),,,2,
+Every brokers,multiple-choice,contain all the topics and all the partitions,contain only a subset of the topics and the partitions,,,2,
+If a topic has a replication factor of 3,multiple-choice,Each partition will live on 3 different brokers,Each partition will live on 2 different brokers,Each partition will live on 4 different brokers,,1,
+"If a topic has a replication factor of 3, what maximum number of brokers can be stopped without impacting the topic availability?",multiple-choice,1,2,3,,2,correct: 2 = 3(replication factor) - 1
+"Each partition can only have 1 leader, and multiple replicas",multiple-choice,true,false,,,1,
+"To produce data to a topic, a producer must provide the Kafka client with...",multiple-choice,any broker from the cluster and the topic name,any broker from the cluster and the topic name and the partitions list,all the brokers from the cluster and the topic name,"the list of brokers that have the data, the topic name, and the partitions list",1,Very important: you only need to connect to one broker (any broker) and just provide the topic name you want to write to. Kafka Clients will route your data to the appropriate brokers and partitions for you!
+"To get acknowledgment of writes to only the leader, we need to use the config...",multiple-choice,acks=1,acks=0,acks=all,,1,
+"To read data from a topic, the following configuration is needed for the consumers",multiple-choice,"any brokers to connect to, and the topic name","all brokers of the cluster, and the topic name","any brokers, and the list of topic partitions ",,1,Very important: you only need to connect to one broker (any broker) and just provide the topic name you want to read from. Kafka will route your calls to the appropriate brokers and partitions for you!
+Two consumers that have the same group.id (consumer group id) will read from mutually exclusive partitions,multiple-choice,true,false,,,1,
+Kafka Consumer Offsets are stored in...,multiple-choice,Zookeeper,Kafka,,,2,"this is the case since Kafka 0.9, in the topic __consumer_offsets"

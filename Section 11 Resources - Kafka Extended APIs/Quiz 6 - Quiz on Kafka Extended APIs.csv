@@ -1,0 +1,6 @@
+Question,Question Type (multiple-choice or multi-select),Answer Option 1,Answer Option 2,Answer Option 3,Answer Option 4,Correct Responses,Explanation
+"To import data from external databases, I should use",multiple-choice,Kafka Connect Source,Kafka Streams,Kafka Connect Sink,,1,
+"To transform data from a Kafka topic to another one, I should use",multiple-choice,Kafka Connect Source,Consumer + Producer,Kafka Streams,Kafka Connect Sink,3,
+"To continuously export data from Kafka into a target database, I should use",multiple-choice,Kafka Connect Source,Kafka Streams,Kafka Consumer,Kafka Connect Sink,4,Kafka Connect Sink is usually a better choice for commonly used databases
+Kafka can verify our incoming data's schema and ensure it's correct,multiple-choice,yes,no,,,2,Kafka does not verify or parse incoming data
+Kafka has a schema registry enabled by default,multiple-choice,"Yes, of course","No, it needs to be installed separately",,,2,

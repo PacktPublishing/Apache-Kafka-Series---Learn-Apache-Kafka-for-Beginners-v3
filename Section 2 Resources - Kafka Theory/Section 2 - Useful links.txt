@@ -1,0 +1,6 @@
+Section 2 - Useful links
+
+KRaft Readme https://github.com/apache/kafka/blob/trunk/config/kraft/README.md
+
+KRaft performance improvement
+https://www.confluent.io/blog/kafka-without-zookeeper-a-sneak-peek/

@@ -1,0 +1,15 @@
+Section 11 - Useful links
+
+
+Kafka Connectors
+https://www.confluent.io/product/connectors/
+
+Confluent Hub
+https://www.confluent.io/hub/
+
+Kafka Connect Wikimedia
+https://github.com/conduktor/kafka-connect-wikimedia
+
+Conduktor Download
+https://www.conduktor.io/download
+

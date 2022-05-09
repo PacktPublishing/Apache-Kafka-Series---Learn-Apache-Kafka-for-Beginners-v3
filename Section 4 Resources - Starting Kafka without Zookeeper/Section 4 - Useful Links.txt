@@ -1,0 +1,10 @@
+Section 4 - Useful Links
+
+Mac Kafka KRaft | Conduktor Kafkademy
+https://www.conduktor.io/kafka/how-to-install-apache-kafka-on-mac-without-zookeeper-kraft-mode
+
+Linu Kafka KRaft | Conduktor Kafkademy
+https://www.conduktor.io/kafka/how-to-install-apache-kafka-on-linux-without-zookeeper-kraft-mode
+
+Windows Kafka KRaft | Conduktor Kafkademy
+https://www.conduktor.io/kafka/how-to-install-apache-kafka-on-windows-without-zookeeper-kraft-mode
