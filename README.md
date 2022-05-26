@@ -1,3 +1,7 @@
+## [Get this title for $10 on Packt's Spring Sale](https://www.packt.com/V11347?utm_source=github&utm_medium=packt-github-repo&utm_campaign=spring_10_dollar_2022)
+-----
+For a limited period, all eBooks and Videos are only $10. All the practical content you need \- by developers, for developers
+
 # Apache Kafka Series - Learn Apache Kafka for Beginners v2 [Video]
 This is the code repository for [Apache Kafka Series - Learn Apache Kafka for Beginners v2 [Video]](https://www.packtpub.com/virtualization-and-cloud/apache-kafka-series-kafka-connect-hands-learning-video?utm_source=github&utm_medium=repository&utm_campaign=9781789344738), published by [Packt](https://www.packtpub.com/?utm_source=github). It contains all the supporting project files necessary to work through the video course from start to finish.
 ## About the Video Course
