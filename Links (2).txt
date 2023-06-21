@@ -1,8 +1,0 @@
-Installing Java 8 & IntelliJ Community Edition
-Section 7, Lecture 43
-To follow this tutorial:
-The viewer MUST install Java 8 JDK on their machine: http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
-
-The viewer SHOULD install IntelliJ Community Edition: https://www.jetbrains.com/idea/download/
-
-An other Java IDE such as Eclipse could work, but won't closely match the videos
