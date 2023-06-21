@@ -1,0 +1,32 @@
+################################
+##                            ##
+##       WITH ZOOKEEPER       ##
+##                            ##
+################################
+
+# Create Zookeeper and Kafka Directory
+C:\kafka_2.13-3.1.0\data\zookeeper
+C:\kafka_2.13-3.1.0\data\kafka
+
+# Edit config\zookeeper.properties
+# Using NotePad++ https://notepad-plus-plus.org/downloads/
+# change line to 
+# dataDir=C:/kafka_2.13-3.1.0/data/zookeeper
+
+# start zookeeper (make sure nothing is running on port 2181)
+zookeeper-server-start.bat C:\kafka_2.13-3.1.0\config\zookeeper.properties
+
+# Open a new command line (we leave zookeeper running in previous command line)
+
+# Edit config\server.properties
+# change line to 
+# log.dirs=C:/kafka_2.13-3.1.0/data/kafka
+# CHANGE LINE: 
+# log.retention.hours=16800
+# delete.topic.enable=false
+ 
+# start Kafka
+kafka-server-start.bat C:\kafka_2.13-3.1.0\config\server.properties
+
+# Kafka is running! 
+# Keep the two command line windows opened

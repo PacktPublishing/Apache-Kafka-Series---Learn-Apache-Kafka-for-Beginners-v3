@@ -1,0 +1,15 @@
+{
+    "type": "record",
+    "name": "myrecord",
+    "fields": [
+        {
+            "name": "f1",
+            "type": "string"
+        },
+        {
+            "name": "f2",
+            "type": "int",
+            "default": 0
+        }
+    ]
+}

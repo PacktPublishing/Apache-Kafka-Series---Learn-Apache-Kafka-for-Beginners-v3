@@ -1,0 +1,31 @@
+#################################
+#### DOWNLOAD KAFKA BINARIES ####
+#################################
+
+# Download Kafka at https://kafka.apache.org/downloads
+
+# Extract Kafka using 7Zip or WinRAR
+# https://www.7-zip.org/
+
+# Place at C:\kafka_2.13-3.1.0
+
+# Install Java 11 JDK:
+# https://docs.aws.amazon.com/corretto/latest/corretto-11-ug/windows-7-install.html
+
+# x64 https://corretto.aws/downloads/latest/amazon-corretto-11-x64-windows-jdk.msi 
+# x86 https://corretto.aws/downloads/latest/amazon-corretto-11-x86-windows-jdk.msi 
+
+
+# Open a command line
+# this should show JDK 11
+java -version 
+
+# Try out a Kafka command
+C:\kafka_2.13-3.1.0\bin\windows\kafka-topics.bat
+
+# Edit your environment variables and add to PATH
+C:\kafka_2.13-3.1.0\bin\windows
+
+# Open a new terminal
+# Try running the command from any directory:
+kafka-topics.bat
